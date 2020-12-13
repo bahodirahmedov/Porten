@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Rubik';
+    background-color: rgba(0, 0, 0, 1);
+}
+.container{
+    padding: 0 15px;
+    width: 1900px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+ul, li{
+    list-style-type: none;
+}
+nav{
+    padding: 14px 0px 14px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-side-nav{
+    display: flex;
+    margin-left: 405px;
+}
+.left-side-link{
+    font-family: 'PT Sans';
+    width: 384px;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(150, 150, 150, 1);
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+    display: flex;
+}
+.left-side-link:hover{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(31, 31, 31, 1);
+}
+.left-side-link::before{
+    content: '';
+    display: flex;
+    background-image: url(../img/eva_phone-outline.png);
+    background-size: cover;
+    width: 13px;
+    height: 13px;
+}
+.right-side-nav{
+    margin-right: 405px;
+}
+.right-side-link{
+    font-family: 'PT Sans';
+    width: 135px;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(150, 150, 150, 1);
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+    display: flex;
+}
+.right-side-link:hover{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(31, 31, 31, 1);
+}
+.right-side-link::before{
+    display: flex;
+    content: '';
+    background-image: url(../img/ic_sharp-log-in.png);
+    width: 14px;
+    height: 14px;
+}
+.top_header_items{
+    background-color: rgba(15, 15, 15, 1);
+    display: flex;
+    width: 1110px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-top-header{
+    font-family: 'Post No Bills Jaffna';
+    color: rgba(255, 255, 255, 1);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 53px;
+}
+.right-top-header{
+    display: flex;
+    align-items: center;
+}
+.top-header-link{
+    text-transform: uppercase;
+    font-family: 'PT Sans';
+    color: rgba(150, 150, 150, 1);
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    padding: 31px 20px;
+}
+.top-header-link:hover{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(31, 31, 31, 1);
+}
+.center_header_box{
+    background-image: url(../img/Rectangle\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 160px;
+    text-align: center;
+}
+.logo-name{
+    margin-right: auto;
+    margin-left: auto;
+    color: rgba(255, 255, 255, 1);
+    font-size: 64px;
+    line-height: 96px;
+    font-weight: 700;
+    font-family: 'Post No Bills Jaffna';
+    width: 280px;
+}
+.logo-border-box{
+    text-align: center;
+    width: 414px;
+    margin: 0 auto;
+    border: 4px solid rgba(255, 255, 255, 1);
+    padding: 93px 67px;
+}
+.text-under-logo{
+    padding-top: 7px;
+    border-top: 2px solid rgba(255, 255, 255, 1);
+    margin-right: auto;
+    margin-left: auto;
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: 'PT Sans';
+    width: 274px;
+    text-transform: uppercase;
+}
+.bottom-header-text{
+    padding-top: 80px;
+    padding-bottom: 130px;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 730px;
+}
+.main-center{
+    width: 1860px;
+    margin: 0 auto;
+}
+.main-center-inside{
+    margin: 0 auto;
+    width: 1863px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-center-inside:nth-child(even){
+    flex-direction: row-reverse;
+}
+.main-center-inside-second{
+    margin: 0 auto;
+    width: 1863px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-center-inside-second::before{
+    display: flex;
+    content: '';
+    background-image: url(../img/rasmmr.png);
+    background-repeat: no-repeat;
+    font-size: contain;
+    width: 800px;
+    height: 730px;
+}
+.box-inside{
+    width: 1040px;
+}
+.main-center-inside::after{
+    display: flex;
+    content: '';
+    background-image: url(../img/new-collection.png);
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 730px;
+}
+.title-inside-main{
+    width: 250px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 93px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.line-under-title{
+    width: 120px;
+    color: rgba(255, 255, 255, 1);
+    height: 1px;
+    opacity: 0.7;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.near-title-date{
+    width: 100px;
+    font-size: 28px;
+}
+.with-three-items{
+    margin-top: 50px;
+    display: flex;
+    width: 880px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 93px;
+}
+.for-column-item{
+    width: 260px;
+    flex-direction: column;
+}
+.img-background img{
+    background-color: rgba(25, 27, 28, 1);
+    padding: 55px 22px 56px 22px;
+    height: 315px;
+    width: 260px;
+}
+.under-img-text{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Playfair Display';
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+.money-text{
+    color: rgba(208, 208, 208, 1);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    font-family: 'Playfair Display';
+}
+.collection{
+    color: rgba(255, 255, 255, 1);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    text-transform: uppercase;
+    width: 376px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    font-family: 'Playfair Display';
+}
+.data-near-collection{
+    margin-left: 14px;
+    font-family: 'Playfair Display';
+    font-size: 28px;
+}
+.informs{
+    margin: 0 auto;
+    width: 472px;
+    text-align: center;
+    flex-direction: column;
+}
+.text-under-collection{
+    width: 470px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    font-family: 'PT Sans';
+    color: rgba(255, 255, 255, 1);
+}
+.new-products{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.top-new-products{
+    color: rgba(255, 255, 255, 1);
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Playfair Display';
+    line-height: 48px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.products-top{
+    display: flex;
+    align-items: center;
+    width: 1109px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.products-bottom{
+
+    display: flex;
+    width: 1109px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottom-last-section{
+    margin-top: 150px;
+    background-color: rgba(15, 15, 15, 1);
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.bottom-section-title{
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    font-family: 'Playfair Display';
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    width: 270px;
+}
+.flex-bottom-items-section{
+    display: flex;
+    margin: 0 auto;
+    width: 1110px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    background-image: url(../img/futerrasm.png);
+    height: 400px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    width: 1865px;
+}
+.footer-center{
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.left-footer-item{
+    width: 350px;
+}
+.center-footer-item{
+    width: 280px;
+}
+.footer-titles{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 40px;
+    font-family: 'Playfair Display';
+}
+.text-footer{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'PT Sans';
+}
+.with-links{
+    display: flex;
+    flex-wrap: wrap;
+    width: 280px;
+    justify-content: space-between;
+    align-self: center;
+}
+.item-name{
+    color: rgba(208, 208, 208, 1);
+    text-decoration: none;
+    background-color: rgba(15, 15, 15, 1);
+    padding: 10px 20px 10px 20px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    font-family: 'PT Sans';
+}
+.item-name:hover{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(31, 31, 31, 1);
+}
+.item-name:active{
+    color: rgba(31, 31, 31, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+.item-name:nth-child(4), :nth-child(5){
+    margin-top: 20px;
+}
+.input-box{
+    width: 350px;
+    margin-top: 37px;
+    display: flex;
+    justify-content: center;
+}
+.mail-to{
+    color: red;
+    background: rgba(255, 255, 255, 0.4);
+    width: 202px;
+    padding: 10px;
+}
+.form-inside{
+    width: 210px;
+}
+::placeholder{
+    color: lightgray;
+    opacity: 1;
+}
+.sending-link{
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    font-family: 'PT Sans';
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(15, 15, 15, 1);
+}
+.last-under-footer{
+    width: 1110px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.text-left{
+    color: rgba(208, 208, 208, 1);
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: 'PT Sans';
+}
+.link-right{
+    color: rgba(208, 208, 208, 1);
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 700;
+    text-decoration: lightgray;
+    font-family: 'PT Sans';
+}
+.link-right:hover{
+    color: rgba(31, 31, 31, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+.link-right:active{
+    color: rgba(31, 31, 31, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
